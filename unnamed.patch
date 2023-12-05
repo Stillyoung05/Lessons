@@ -1,0 +1,511 @@
+Index: .idea/shelf/Changes/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Changes/shelved.patch b/.idea/shelf/Changes/shelved.patch
+new file mode 100644
+--- /dev/null	(revision 2c0f89dd7d715cac1be9f03c8cc72e743f5e5085)
++++ b/.idea/shelf/Changes/shelved.patch	(revision 2c0f89dd7d715cac1be9f03c8cc72e743f5e5085)
+@@ -0,0 +1,501 @@
++Index: .idea/modules.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/modules.xml b/.idea/modules.xml
++new file mode 100644
++--- /dev/null	(date 1692961438039)
+++++ b/.idea/modules.xml	(date 1692961438039)
++@@ -0,0 +1,8 @@
+++<?xml version="1.0" encoding="UTF-8"?>
+++<project version="4">
+++  <component name="ProjectModuleManager">
+++    <modules>
+++      <module fileurl="file://$PROJECT_DIR$/.idea/Lessons.iml" filepath="$PROJECT_DIR$/.idea/Lessons.iml" />
+++    </modules>
+++  </component>
+++</project>
++\ No newline at end of file
++Index: .idea/Lessons.iml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/Lessons.iml b/.idea/Lessons.iml
++new file mode 100644
++--- /dev/null	(date 1692961438016)
+++++ b/.idea/Lessons.iml	(date 1692961438016)
++@@ -0,0 +1,8 @@
+++<?xml version="1.0" encoding="UTF-8"?>
+++<module type="PYTHON_MODULE" version="4">
+++  <component name="NewModuleRootManager">
+++    <content url="file://$MODULE_DIR$" />
+++    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
+++    <orderEntry type="sourceFolder" forTests="false" />
+++  </component>
+++</module>
++\ No newline at end of file
++Index: Lesson4.py
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/Lesson4.py b/Lesson4.py
++new file mode 100644
++--- /dev/null	(date 1694163517157)
+++++ b/Lesson4.py	(date 1694163517157)
++@@ -0,0 +1,21 @@
+++"""Sum1"""
+++# a = 0
+++# while True:
+++#     b = int(input("Enter thr num:"))
+++#     if b < 0:
+++#         a += 15
+++#     elif b == 0:
+++#         print("O\'zgaruvchi faqat butun bo\'lgan manfiy yoi musbat son qabul qiladi")
+++#     else:
+++#         a -= 15
+++# print(f"a = {a}")
+++
+++"""" = [1, 3, 4, 2, 5]
+++global j
+++for j in range(4):
+++    print(o[j])"""
+++
+++# l = 0
+++# for j in range(32, 30, 2):
+++#     l += j
+++# print(l)
++Index: .idea/.gitignore
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/.gitignore b/.idea/.gitignore
++new file mode 100644
++--- /dev/null	(date 1692961438138)
+++++ b/.idea/.gitignore	(date 1692961438138)
++@@ -0,0 +1,3 @@
+++# Default ignored files
+++/shelf/
+++/workspace.xml
++Index: .idea/vcs.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/vcs.xml b/.idea/vcs.xml
++new file mode 100644
++--- /dev/null	(date 1693828738933)
+++++ b/.idea/vcs.xml	(date 1693828738933)
++@@ -0,0 +1,6 @@
+++<?xml version="1.0" encoding="UTF-8"?>
+++<project version="4">
+++  <component name="VcsDirectoryMappings">
+++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+++  </component>
+++</project>
++\ No newline at end of file
++Index: Lesson3.py
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/Lesson3.py b/Lesson3.py
++new file mode 100644
++--- /dev/null	(date 1694163002553)
+++++ b/Lesson3.py	(date 1694163002553)
++@@ -0,0 +1,295 @@
+++# while True:
+++#     num = int(input("Enter the num: "))
+++#     if num > 0:
+++#         print("Musbat son")
+++#     elif num == 0:
+++#         print("Siz n0l kiritdingiz")
+++#     else:
+++#         print("Manfiy son kiritdingiz")
+++
+++# num = int(input("Enter the num: "))
+++# for h in range(num + 1):
+++#     if num == h:
+++#         global num2
+++#         num2 = h
+++# print(f"Siz {num2} kiritdingiz")
+++
+++# num = int(input("Enter the num: "))
+++# if num == 1:
+++#     print("Siz 1 kiritdingiz")
+++# elif num == 2:
+++#     print("Siz 2 kiritdingiz")
+++# elif num == 3:
+++#     print("Siz 3 kiritdingiz")
+++# elif num == 4:
+++#     print("Siz 4 kiritdingiz")
+++# else:
+++#     print("Siz 5 kiritdingiz")
+++
+++# num = int(input("Enter the num: "))
+++# if num > 0:
+++#     num += 1
+++# print(num)
+++
+++# a = int(input("A sonni kiriting"))
+++# b = int(input("B sonni kiriting"))
+++# c = int(input("C sonni kiriting"))
+++# d = 0
+++# if a > 0:
+++#     d += 1
+++# if b > 0:
+++#     d += 1
+++# if c > 0:
+++#     d += 1
+++# print(d)
+++
+++"""if2"""
+++# int = int(input())
+++# if int > 0:
+++#     int += 1
+++# else:
+++#     int -= 2
+++# print(int)
+++
+++"""if3"""
+++# int = int(input())
+++# if int > 0:
+++#     int += 1
+++# elif int == 0:
+++#     int = 10
+++# else:
+++#     int -= 2
+++
+++"""if5"""
+++# a, b, c = map(int, input().split())
+++# minuses = 0
+++# pluses = 0
+++# if a > 0 and b < 0 and c < 0:
+++#     pluses += 1
+++#     minuses += 2
+++# elif b > 0 and a < 0 and c < 0:
+++#     pluses += 1
+++#     minuses += 2
+++# elif c > 0 and b < 0 and a < 0:
+++#     pluses += 1
+++#     minuses += 2
+++# elif a > 0 and b > 0 and c < 0:
+++#     pluses += 2
+++#     minuses += 1
+++# elif a > 0 and c > 0 and b < 0:
+++#     minuses += 1
+++#     pluses += 2
+++# elif b > 0 and c > 0 and a < 0:
+++#     minuses += 1
+++#     pluses += 2
+++# elif a > 0 and b > 0 and c > 0:
+++#     pluses += 3
+++# elif a < 0 and b < 0 and c < 0:
+++#     minuses += 3
+++# else:
+++#     print("Wrong nums")
+++# print(minuses, pluses)
+++
+++"""if6"""
+++# a, b = map(int, input().split())
+++# if a > b:
+++#     print(a)
+++# else:
+++#     print(b)
+++
+++"""if7"""
+++# a, b = map(int, input().split())
+++# if a < b:
+++#     print(1)
+++# else:
+++#     print(2)
+++
+++"""if8"""
+++# a, b = map(int, input().split())
+++# if a > b:
+++#     print(a, b)
+++# else:
+++#     print(b, a)
+++
+++"""if9"""
+++# a, b =map(int, input().split())
+++# if a > b:
+++#     a = a-b
+++# elif b > a:
+++#     a = a
+++# elif a == b:
+++#     a -= 1
+++# else:
+++#     print("Wrong num")
+++
+++"""if10"""
+++# a, b = map(int, input().split())
+++# if a != b:
+++#     a, b = a + b
+++# else:
+++#     a, b = 0
+++# print(a, b)
+++
+++"""if11"""
+++# a, b = map(int, input().split())
+++# if a != b:
+++#     a, b = max(a, b)
+++# else:
+++#     a, b = 0
+++# print(a, b)
+++
+++"""if12"""
+++# a, b, c = map(int, input().split())
+++# print(min(a, b, c))
+++
+++"""if13"""
+++# a, b, c = map(int, input().split())
+++# nums = [a, b, c]
+++# max = max(a, b, c)
+++# min = min(a, b, c)
+++# nums.remove(max)
+++# nums.remove(min)
+++# print(nums[0])
+++
+++"""if14"""
+++# a, b, c = map(int, input().split())
+++# print(min(a, b, c), max(a, b, c))
+++
+++"""if15"""
+++# a, b, c = map(int, input().split())
+++# nums = [a, b, c]
+++# nums.remove(max(a, b, c))
+++# print(max(a, b, c), max(nums))
+++
+++"""if16"""
+++# a, b, c = map(int, input().split())
+++# if a > b > c:
+++#     a *= 2
+++#     b *= 2
+++#     c *= 2
+++# else:
+++#     a *= -1
+++#     b *= -1
+++#     c *= -1
+++# print(a, b, c)
+++
+++"""if17"""
+++# a, b, c = map(int, input().split())
+++# if a > b > c or c > b > c:
+++#     a *= 2
+++#     b *= 2
+++#     c *= 2
+++# else:
+++#     a *= -1
+++#     b *= -1
+++#     c *= -1
+++# print(a, b, c)
+++
+++"""if18"""
+++# a, b, c = map(int, input().split())
+++# # nums = [a, b, c]
+++# # index = 0
+++# if a == b:
+++#     print(3)
+++# elif a == c:
+++#     print(2)
+++# elif b == c:
+++#     print(1)
+++# else:
+++#     print('Bir biriga teng 2 ta son mavjud emas')
+++# print(index)
+++
+++"""if19"""
+++# a, b, c, d = map(int, input().split())
+++# if a == b == c:
+++#     print(4)
+++# elif a == b == d:
+++#     print(3)
+++# elif a == c == d:
+++#     print(2)
+++# elif b == c == d:
+++#     print(1)
+++# else:
+++#     print('Teng sonlar yetishmayapti')
+++
+++"""if20"""
+++# a, b, c = map(int, input().split())
+++# distance1 = abs(a - c)
+++# distance2 = abs(a - b)
+++# if distance2 > distance1:
+++#     print(c, distance1)
+++# elif distance1 > distance2:
+++#     print(b, distance2)
+++# else:
+++#     print('None')
+++
+++"""if21"""
+++# a, b = map(int, input().split())
+++# if a == 0 and b == 0:
+++#     print(0)
+++# elif a == 0:
+++#     print(1)
+++# elif b == 0:
+++#     print(2)
+++# else:
+++#     print(3)
+++
+++"""if22"""
+++# a, b = map(int, input().split())
+++# if a > 0 and b > 0:
+++#     print(1)
+++# elif a > 0 and b < 0:
+++#     print(4)
+++# elif a < 0 and b < 0:
+++#     print(3)
+++# elif a < 0 and b > 0:
+++#     print(2)
+++# else:
+++#     print('Nuqta koordinata boshida yoki koordinata tog\'ri chiziqlari bn kesishgan')
+++
+++"""if23"""
+++# a, b = map(int, input().split())
+++# c, d = map(int, input().split())
+++# e, f = map(int, input().split())
+++# print(e, b)
+++
+++"""if28"""
+++# years = int(input())
+++# days = years * 365
+++# if years % 100 == 0:
+++#     days += years // 400
+++# else:
+++#     days += years // 4
+++# print(days)
+++
+++"""if29"""
+++# v = int(input())
+++# if v > 0 and v % 2 == 0:
+++#     print('Musbat juft son')
+++# elif v == 0:
+++#     print('Son 0 ga teng')
+++# elif v > 0 and v % 2 != 0:
+++#     print('Musbat juft son')
+++# elif v < 0 and abs(v) % 2 == 0:
+++#     print('Manfiy juft son')
+++# elif v < 0 and abs(v) % 2 != 0:
+++#     print('Manfiy toq son')
+++# else:
+++#     print('')
+++
+++"""if30"""
+++# g = int(input())
+++# if g % 100 > 1:
+++#     if g % 2 == 0:
+++#         print('3 xonali juft son')
+++#     else:
+++#         print('3 xonali toq son')
+++# elif (g - g // 100) % 10 > 1:
+++#     if g % 2 == 0:
+++#         print('2 xonali juft son')
+++#     else:
+++#         print('2 xonali toq son')
+++# elif g % 2 == 0:
+++#     print('1 xonali fuft son')
+++# else:
+++#     print('1 xonali toq son')
++Index: lesson2.py
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/lesson2.py b/lesson2.py
++new file mode 100644
++--- /dev/null	(date 1693288749525)
+++++ b/lesson2.py	(date 1693288749525)
++@@ -0,0 +1,23 @@
+++# j = 'qwerty o o k k k'
+++# print(j.index(' '))
+++
+++# name = input('Enter your name: ')
+++# try:
+++#     age = int(input('Enter your age: '))
+++# except ValueError:
+++#     print('Wrong data type')
+++#     age = int(input('Enter your age: '))
+++# print(f"{name} is {age} years old")
+++
+++# print(len('apple') < len('orange'))
+++
+++"""Sum40"""
+++# A1, B1, C1, A2, B2, C2 = map(int, input().split())
+++# D = A1 * B2 - A2 * B1
+++# print(f'x = {(C1 * B2 - C2 * B1) / D}')
+++# print(f'y = {(A1 * C2 - A2 * C1) / D}')
+++
+++"""Integer28"""
+++N = int(input())
+++K = int(input())
+++days = ['dushanba', 'seshanba', 'chorshanba', 'payshanba', 'juma', 'shanba', 'yakshanba']
++Index: .idea/inspectionProfiles/profiles_settings.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
++new file mode 100644
++--- /dev/null	(date 1692961438108)
+++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1692961438108)
++@@ -0,0 +1,6 @@
+++<component name="InspectionProjectProfileManager">
+++  <settings>
+++    <option name="USE_PROJECT_PROFILE" value="false" />
+++    <version value="1.0" />
+++  </settings>
+++</component>
++\ No newline at end of file
++Index: .idea/inspectionProfiles/Project_Default.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
++new file mode 100644
++--- /dev/null	(date 1692961437921)
+++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1692961437921)
++@@ -0,0 +1,16 @@
+++<component name="InspectionProjectProfileManager">
+++  <profile version="1.0">
+++    <option name="myName" value="Project Default" />
+++    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+++      <option name="ignoredPackages">
+++        <value>
+++          <list size="3">
+++            <item index="0" class="java.lang.String" itemvalue="py_find_1st" />
+++            <item index="1" class="java.lang.String" itemvalue="technical" />
+++            <item index="2" class="java.lang.String" itemvalue="TA-Lib" />
+++          </list>
+++        </value>
+++      </option>
+++    </inspection_tool>
+++  </profile>
+++</component>
++\ No newline at end of file
++Index: .idea/misc.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/misc.xml b/.idea/misc.xml
++new file mode 100644
++--- /dev/null	(date 1693431358679)
+++++ b/.idea/misc.xml	(date 1693431358679)
++@@ -0,0 +1,7 @@
+++<?xml version="1.0" encoding="UTF-8"?>
+++<project version="4">
+++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+++  <component name="PyCharmProfessionalAdvertiser">
+++    <option name="shown" value="true" />
+++  </component>
+++</project>
++\ No newline at end of file
++diff --git a/Lesson6.py b/Lesson6.py
++new file mode 100644
